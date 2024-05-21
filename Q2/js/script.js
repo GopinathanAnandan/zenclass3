@@ -2,7 +2,7 @@ function reqListener() {
     const countryarray = JSON.parse(this.responseText);
     console.log(countryarray);
     for(let country of countryarray){
-        console.table(country.flags.png);
+        console.log(country.flags.png);
         
     }
 
