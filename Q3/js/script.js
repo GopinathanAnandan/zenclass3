@@ -3,9 +3,10 @@ function reqListener() {
     console.log(countryarray);
     for(let country of countryarray){
         console.table(country.name.common);
-        console.table(country.name.common);
-        console.table(country.name.common);
-        console.table(country.name.common);    
+        console.table(country.region);
+        console.table(country.subregion);
+        console.table(country.population);
+         
     }
 
   }
